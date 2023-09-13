@@ -4,12 +4,17 @@
   "description": "FnB App to select menu.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "@fathanaa26",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
     "express-handlebars": "^7.1.2"
+  },
+  "devDependencies": {
+    "jest": "^29.6.4",
+    "portfinder": "^1.0.32",
+    "puppeteer": "^21.1.1"
   }
 }
